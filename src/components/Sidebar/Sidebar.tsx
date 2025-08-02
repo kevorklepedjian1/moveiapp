@@ -5,12 +5,12 @@ import type { MenuItem } from '../../types';
 import './Sidebar.css';
 
 const menuItems: MenuItem[] = [
-  { id: 'search', label: 'Search', icon: '/src/assets/icons/ICON - Search.png' },
-  { id: 'home', label: 'Home', icon: '/src/assets/icons/Group 46.png', isActive: true },
-  { id: 'tv-shows', label: 'TV Shows', icon: '/src/assets/icons/Group 47.png' },
-  { id: 'movies', label: 'Movies', icon: '/src/assets/icons/Group 53.png' },
-  { id: 'genres', label: 'Genres', icon: '/src/assets/icons/Group 54.png' },
-  { id: 'watch-later', label: 'Watch Later', icon: '/src/assets/icons/Group 56.png' },
+  { id: 'search', label: 'Search', icon: '../../../public/assets/icons//ICON - Search.png' },
+  { id: 'home', label: 'Home', icon: '../../../public/assets/icons/Group 46.png', isActive: true },
+  { id: 'tv-shows', label: 'TV Shows', icon: '../../../public/assets/icons/Group 47.png' },
+  { id: 'movies', label: 'Movies', icon: '../../../public/assets/icons/Group 53.png' },
+  { id: 'genres', label: 'Genres', icon: '../../../public/assets/icons/Group 54.png' },
+  { id: 'watch-later', label: 'Watch Later', icon: '../../../public/assets/icons/Group 56.png' },
 ];
 
 const bottomMenuItems = [
@@ -44,7 +44,7 @@ const Sidebar: React.FC = () => {
             <>
               <div className="sidebar__profile-avatar">
                 <img 
-                  src="/src/assets/icons/Group 46.png" 
+                  src="../../../public/assets/icons/Group 46.png" 
                   alt="Profile" 
                   className="sidebar__profile-image"
                 />

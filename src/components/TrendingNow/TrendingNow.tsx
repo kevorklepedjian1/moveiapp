@@ -102,7 +102,7 @@ const TrendingNow: React.FC = () => {
           >
             <div className="trending-now__image-container">
               <img
-                src={`/src/assets/${movie.CoverImage}`}
+                src={`../../../public/assets/${movie.CoverImage}`}
                 alt={movie.Title}
                 className="trending-now__image"
                 loading="lazy"
