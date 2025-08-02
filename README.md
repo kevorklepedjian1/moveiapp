@@ -23,7 +23,7 @@ It showcases how modern front-end technologies can be combined to create a respo
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/kevorklepedjian1/movie.git
+   git clone https://github.com/kevorklepedjian1/movieapp.git
    cd movie
 
 2. **Install dependencies:**
