@@ -49,7 +49,7 @@ const FeaturedContent: React.FC = () => {
           />
         ) : (
           <img
-            src={`../../../public/assets/${featured.CoverImage}`}
+            src={`/assets/${featured.CoverImage}`}
             alt={featured.Title}
             className="featured-content__image"
           />
@@ -61,7 +61,7 @@ const FeaturedContent: React.FC = () => {
       <div className="featured-content__info">
         <div className="featured-content__header">
           <img
-            src={`../../../public/assets//${featured.TitleImage}`}
+            src={`/assets//${featured.TitleImage}`}
             alt={featured.Title}
             className="featured-content__title-image"
           />
